@@ -1,0 +1,18 @@
+import matplotlib as plt 
+import pandas as pd
+
+Lateral_Thalamus_cellcounts=pd.read_csv('LH_TRIO_cellcounts.csv')
+
+Nucleus_accumbens_cellcounts=pd.read.csv('NAc_TRIO_cellcounts.csv')
+
+Prefrontal_Cortex_cellcounts=pd.read.csv('PRC_TRIO_cellcounts.csv')
+
+print(Lateral_Thalamus_cellcounts.head)
+
+print(Prefrontal_Cortex_cellcounts.head)
+
+print(Nucleus_accumbens_cellcounts.head)
+
+
+
+
