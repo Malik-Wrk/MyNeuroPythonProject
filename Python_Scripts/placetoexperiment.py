@@ -15,8 +15,8 @@ subset_NA = AllData[AllData.Projection == "NAc"]
 subset_PFC = AllData[AllData.Projection == "PFC"]
 
 
-fig = px.scatter_3d(subset_LH,x="AP", y="ML", z="DV", opacity=0.5)
-fig.update_traces(marker=dict(color=LH_colour, size=2))
+fig = px.scatter_3d(subset_LH,x="AP", y="ML", z="DV", opacity=0.5,)
+fig.update_traces(marker=dict(color=LH_colour, size=2), name="LH", showlegend=True)
 
 
 fig.add_trace(
@@ -38,5 +38,7 @@ fig.add_trace(
 fig["layout"].update(width=1000, height=600, autosize=False)
 
 fig.update_scenes(aspectmode="data")
+
+fig.update_legends(font_size=15)
 
 fig.show()
