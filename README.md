@@ -4,3 +4,5 @@ This repository contains all the data analysis and figures that I have created f
 
 Link to paper: "https://www.sciencedirect.com/science/article/pii/S2211124720302679"
 
+The datasets were cloned from a larger repository called **"OpenNeuroAI"** and contains some ideas on how the data could be manipulated and presented. 
+
