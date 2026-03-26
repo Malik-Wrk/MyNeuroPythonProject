@@ -34,7 +34,6 @@ plt.figure()
 plt.rcParams['axes.spines.right'] = False
 plt.rcParams['axes.spines.top'] = False
 
-
 plt.subplot(1,3,1) 
 plt.plot(sorted_LH_AP["AP"],
          Cell_population_LH, 
@@ -107,8 +106,6 @@ plt.xticks(np.linspace(-2, -8, 3))
 plt.yticks([0, 0.5, 1])
 
 
-plt.rcParams['axes.spines.right'] = False
-plt.rcParams['axes.spines.top'] = False
 plt.tight_layout()
 
 
